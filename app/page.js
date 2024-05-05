@@ -1,4 +1,4 @@
-'use client'
+'use clientgit '
 import Image from "next/image";
 import Navbar from "./Components/Navbar";
 import { Bebas_Neue, } from 'next/font/google'

@@ -20,8 +20,6 @@ const Mainpage = () => {
           A one stop solution for all their is to set up your business online.
         </p>
       </div>
-      <div></div>
-
       <div>
         <image
           src="/down-arrow.png"
@@ -57,6 +55,7 @@ const Mainpage = () => {
               A one stop solution for all their is to set up your business
               online.
             </p>
+            {/* this is muneer from local */}
             <button className='border-[1px] px-2 py-1 border-white rounded-[4px] hover:text-red'>See more</button>
           </div>
         </div>
