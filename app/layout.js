@@ -1,6 +1,7 @@
 'use client'
 import { Inter, Bebas_Neue, Almarai} from 'next/font/google';
 import "./globals.css";
+// import Spline from  "@splinetool/react-spline";
 
 // import Spline from '@splinetool/react-spline';
 
@@ -26,8 +27,7 @@ export default function Layout({ children }) {
   return (
     <main lang="en" className={`${inter.variable} ${Bebas.variable} ${almarai.variable} `} >
       <body>
-        {/* <Spline className='absolute z-[-1]' scene="https://prod.spline.design/tMoBwoV6i6NTm7JB/scene.splinecode" /> */}
-        <div>{children}</div>
+                <div>{children}</div>
       </body>
     </main>
   )

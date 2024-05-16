@@ -5,7 +5,7 @@ const page = () => {
   return (
     <>
     <Navbar/>
-    <div>this is blog post</div>
+    <div className='align-middle hover:align-top border-red-2'>this is blog post</div>
     </>
   )
 }
